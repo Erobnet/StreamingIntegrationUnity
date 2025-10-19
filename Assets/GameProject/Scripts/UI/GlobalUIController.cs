@@ -15,7 +15,6 @@ using UnityEngine.UIElements.Experimental;
 namespace GameProject
 {
     public readonly struct VisualElementWrapper :
-        ITransform,
         ITransitionAnimations,
         IExperimentalFeatures
     {
@@ -95,23 +94,6 @@ namespace GameProject
         }
 
         #region VisualElementGeneratedMethodWrappers
-        public Quaternion rotation {
-            get => ((ITransform)Value).rotation;
-            set => ((ITransform)Value).rotation = value;
-        }
-
-        Vector3 ITransform.scale {
-            get => ((ITransform)Value).scale;
-            set => ((ITransform)Value).scale = value;
-        }
-
-        public Matrix4x4 matrix => ((ITransform)Value).matrix;
-
-        Vector3 ITransform.position {
-            get => ((ITransform)Value).position;
-            set => ((ITransform)Value).position = value;
-        }
-
         public ValueAnimation<float> Start(float from, float to, int durationMs, Action<VisualElement, float> onValueChanged)
         {
             return ((ITransitionAnimations)Value).Start(from, to, durationMs, onValueChanged);

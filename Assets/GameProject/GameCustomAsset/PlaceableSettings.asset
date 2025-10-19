@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64e3dee8751347e0858a2571da57c7bc, type: 3}
+  m_Name: PlaceableSettings
+  m_EditorClassIdentifier: 
+  _startPoint: {x: -12, y: -0.3, z: -0.15}
+  _snapGridCellSizes:
+  - x: 0.5
+    z: 2
+  placeableObjectPrefabs:
+  - {fileID: 11400000, guid: e67de04905e4d1c438afc7160db15899, type: 2}
+  - {fileID: 11400000, guid: 11bc6a2ac5d1a7c48905703d22098f0b, type: 2}
+  - {fileID: 11400000, guid: 65c006cbc8440bf41b89e0da9ff99201, type: 2}
+  - {fileID: 11400000, guid: 0c5d33cd95413b740ad4554a499cadbf, type: 2}
+  - {fileID: 11400000, guid: ff8542ce14dc09b40ab366d1aa99b2ff, type: 2}
+  - {fileID: 11400000, guid: f9ac7096eabd52c438f8bb105785758f, type: 2}
+  placementCollisionMasks:
+    serializedVersion: 2
+    m_Bits: 832
+  surfaceCollisionMasks:
+    serializedVersion: 2
+    m_Bits: 8
+  moveableCollisionMask:
+    serializedVersion: 2
+    m_Bits: 512
+  obstructedPlacementColor: {r: 1, g: 0, b: 0, a: 1}
+  SelectableObjectColor: {r: 0, g: 1, b: 0, a: 1}

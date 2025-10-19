@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1cf9e9be0e84cf19c4e0dd5341b97d3, type: 3}
+  m_Name: RegisterCounter_Indexer
+  m_EditorClassIdentifier: 
+  _guid:
+    HashValue:
+      x: 4188827798
+      y: 1388636861
+      z: 280754232
+      w: 2406843735
+  placeableObjectOptions:
+  - {fileID: 7806006855879783248, guid: 2868bc8f5774ceb4987cf78ffae55750, type: 3}
+  displayIcon: {fileID: 1451111695, guid: 9fb853af681e87a43b5f65e6fa4ef3a1, type: 3}
+  availableStock: 1
+  purchasePrice:
+    Value: 0
+  canBeDeleted: 1

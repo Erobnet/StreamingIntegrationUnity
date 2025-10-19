@@ -1,0 +1,30 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Template name="ColorOption" src="project://database/Assets/GameProject/UIToolkit/ColorOption.uxml?fileID=9197481963319205126&amp;guid=4f781b0b1bcbd0649884182f07698e62&amp;type=3#ColorOption" />
+    <Style src="project://database/Assets/GameProject/UIToolkit/MainStyleSheet.uss?fileID=7433441132597879392&amp;guid=b0ff8b8a804569c4588e71554c0e2384&amp;type=3" />
+    <engine:VisualElement name="FieldOptionRoot" style="width: 100%; flex-direction: column; align-items: flex-start; align-self: flex-start;">
+        <engine:GroupBox name="SelectOption" style="flex-direction: row; justify-content: center; align-self: center; align-content: center; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 29px; width: 90%; align-items: center;">
+            <engine:Button enable-rich-text="false" name="Previous" class="FieldOptionChangeButton">
+                <engine:VisualElement name="Icon_Arrow" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/GameProject/Art/Sprites/UI/Char_Creator_UI.png?fileID=-472433279&amp;guid=1c4d481db7a28a14a9182f7273dd4841&amp;type=3#Char_Creator_UI_59&quot;); width: 32px; height: 32px; position: absolute; -unity-background-scale-mode: scale-and-crop; -unity-background-image-tint-color: rgb(255, 255, 255); background-size: 100% 100%; -unity-slice-scale: 0;" />
+            </engine:Button>
+            <engine:VisualElement name="LabelRoot" style="flex-direction: row; flex-grow: 1; justify-content: center; align-items: flex-start;">
+                <engine:Label text="Type: " name="Label" emoji-fallback-support="false" class="pompyMiniOptionLabel" style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(87, 94, 92); margin-right: 0; margin-top: 0; margin-left: 0;" />
+                <engine:Label text="Stoat&#10;" name="Text" class="pompyMiniOptionLabel" style="font-size: 14px; color: rgb(68, 136, 138); margin-right: 0; margin-top: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+            </engine:VisualElement>
+            <engine:Button enable-rich-text="false" name="Next" class="FieldOptionChangeButton" style="background-color: rgba(188, 188, 188, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; width: 32px; height: 100%; -unity-background-scale-mode: scale-to-fit; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
+                <engine:VisualElement name="Icon_Arrow" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/GameProject/Art/Sprites/UI/Char_Creator_UI.png?fileID=-1824745117&amp;guid=1c4d481db7a28a14a9182f7273dd4841&amp;type=3#Char_Creator_UI_60&quot;); width: 32px; height: 32px; position: absolute; -unity-background-scale-mode: scale-and-crop; background-size: 100% 100%;" />
+            </engine:Button>
+        </engine:GroupBox>
+        <engine:GroupBox name="ColorList" style="width: 100%; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-bottom: 0; margin-top: 0; margin-right: 0; margin-left: 0; justify-content: center; flex-direction: row; align-self: center; align-content: center; align-items: center; flex-wrap: wrap; max-height: 50px;">
+            <engine:Instance template="ColorOption" />
+            <engine:Instance template="ColorOption" />
+            <engine:Instance template="ColorOption" />
+            <engine:Instance template="ColorOption" />
+            <engine:Instance template="ColorOption" />
+            <engine:Instance template="ColorOption" />
+            <engine:Instance template="ColorOption" />
+            <engine:Instance template="ColorOption" />
+            <engine:Instance template="ColorOption" />
+            <engine:Instance template="ColorOption" />
+        </engine:GroupBox>
+    </engine:VisualElement>
+</engine:UXML>

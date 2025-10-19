@@ -1,0 +1,14 @@
+﻿{
+  "name": "ChatBot",
+  "allowUnsafeCode": true,
+  "references": [  
+    "Unity.Mathematics",
+    "Unity.Burst",
+    "Unity.Collections",
+    "Unity.Entities",
+    "Unity.Entities.Hybrid",
+    "Drboum.Utilities",
+    "Unity.Serialization",
+    "SharedPaths"
+  ]
+}

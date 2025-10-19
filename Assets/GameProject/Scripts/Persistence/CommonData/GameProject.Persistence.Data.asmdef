@@ -1,0 +1,11 @@
+﻿{
+  "name": "GameProject.Persistence.Data",
+  "allowUnsafeCode": true,
+  "references": [  
+    "Unity.Mathematics",
+    "Unity.Burst",
+    "Unity.Collections",
+    "Unity.Entities",
+    "Drboum.Utilities"
+  ]
+}

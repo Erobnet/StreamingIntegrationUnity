@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 5cb897424ce046aeb600ea396f6da1d5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ProjectCharacterCreatorData: {fileID: 11400000, guid: e1eea1f2bf3073f4ca5b9039db508eed, type: 2}
+  - CharacterTransitionDefinition: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

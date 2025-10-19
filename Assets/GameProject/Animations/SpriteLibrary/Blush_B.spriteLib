@@ -1,0 +1,558 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Idle
+    m_Hash: 1008081451
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Stoat_Fawn_0
+      m_Hash: 984619896
+      m_Sprite: {fileID: 1013200531, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1013200531, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_1
+      m_Hash: 230108142
+      m_Sprite: {fileID: -1445422881, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1445422881, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_2
+      m_Hash: 348027476
+      m_Sprite: {fileID: 1242397621, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1242397621, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_3
+      m_Hash: 599345858
+      m_Sprite: {fileID: 446134222, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 446134222, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_4
+      m_Hash: 1037950817
+      m_Sprite: {fileID: -36177282, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -36177282, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_5
+      m_Hash: 182120439
+      m_Sprite: {fileID: 1219429500, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1219429500, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 6
+  - m_Name: Walk_Down
+    m_Hash: 630520127
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Stoat_Fawn_6
+      m_Hash: 332643917
+      m_Sprite: {fileID: -494092094, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -494092094, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_7
+      m_Hash: 617909979
+      m_Sprite: {fileID: -1419754138, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1419754138, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_8
+      m_Hash: 879465290
+      m_Sprite: {fileID: -645947087, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -645947087, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_9
+      m_Hash: 57451484
+      m_Sprite: {fileID: 434262659, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 434262659, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_10
+      m_Hash: 858040181
+      m_Sprite: {fileID: 841882913, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 841882913, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_11
+      m_Hash: 69441507
+      m_Sprite: {fileID: 51238805, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 51238805, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 6
+  - m_Name: Walk_Up
+    m_Hash: 947556182
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Stoat_Fawn_12
+      m_Hash: 489342553
+      m_Sprite: {fileID: 45704602, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 45704602, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_13
+      m_Hash: 707655375
+      m_Sprite: {fileID: 332559141, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 332559141, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_14
+      m_Hash: 877224812
+      m_Sprite: {fileID: -608296365, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -608296365, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_15
+      m_Hash: 55464954
+      m_Sprite: {fileID: 1270310114, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1270310114, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_16
+      m_Hash: 440861248
+      m_Sprite: {fileID: 494544282, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 494544282, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_17
+      m_Hash: 759182038
+      m_Sprite: {fileID: -1873615566, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1873615566, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 6
+  - m_Name: Walk_Right
+    m_Hash: 861854308
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Stoat_Fawn_18
+      m_Hash: 1040133959
+      m_Sprite: {fileID: -205377381, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -205377381, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_19
+      m_Hash: 184033233
+      m_Sprite: {fileID: 328776355, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 328776355, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_20
+      m_Hash: 403305654
+      m_Sprite: {fileID: 1553095141, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1553095141, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_21
+      m_Hash: 789496864
+      m_Sprite: {fileID: 865022989, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 865022989, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_22
+      m_Hash: 906466714
+      m_Sprite: {fileID: 168446919, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 168446919, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_23
+      m_Hash: 16819468
+      m_Sprite: {fileID: -853657250, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -853657250, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 6
+  - m_Name: Walk_Left
+    m_Hash: 51154540
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Stoat_Fawn_24
+      m_Hash: 526659759
+      m_Sprite: {fileID: 362031392, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 362031392, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_25
+      m_Hash: 677576761
+      m_Sprite: {fileID: -1149976008, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1149976008, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_26
+      m_Hash: 829051267
+      m_Sprite: {fileID: 990422681, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 990422681, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_27
+      m_Hash: 107831573
+      m_Sprite: {fileID: -1343470311, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1343470311, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_28
+      m_Hash: 382893188
+      m_Sprite: {fileID: 2020599056, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 2020599056, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_29
+      m_Hash: 567626770
+      m_Sprite: {fileID: 1573113646, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1573113646, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 6
+  - m_Name: Wave
+    m_Hash: 976618167
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Stoat_Fawn_30
+      m_Hash: 18007543
+      m_Sprite: {fileID: 1174101390, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1174101390, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_31
+      m_Hash: 907408737
+      m_Sprite: {fileID: 1267138928, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1267138928, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_32
+      m_Hash: 790406363
+      m_Sprite: {fileID: -1880933177, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1880933177, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_33
+      m_Hash: 404460621
+      m_Sprite: {fileID: -376811524, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -376811524, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_34
+      m_Hash: 108986862
+      m_Sprite: {fileID: 65606946, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 65606946, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_35
+      m_Hash: 829960568
+      m_Sprite: {fileID: 807613151, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 807613151, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 6
+  - m_Name: Idle_Left
+    m_Hash: 367294619
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Stoat_Fawn_36
+      m_Hash: 678518978
+      m_Sprite: {fileID: -1053839858, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1053839858, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_37
+      m_Hash: 527847508
+      m_Sprite: {fileID: 406117462, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 406117462, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_38
+      m_Hash: 264850885
+      m_Sprite: {fileID: 1436576715, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1436576715, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_39
+      m_Hash: 953056595
+      m_Sprite: {fileID: 2085369354, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 2085369354, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_40
+      m_Hash: 240341808
+      m_Sprite: {fileID: -1675697653, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1675697653, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_41
+      m_Hash: 961831846
+      m_Sprite: {fileID: 1839840360, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1839840360, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 6
+  - m_Name: Idle_Right
+    m_Hash: 277959981
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Stoat_Fawn_42
+      m_Hash: 542978588
+      m_Sprite: {fileID: 1074551771, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1074551771, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_43
+      m_Hash: 391774858
+      m_Sprite: {fileID: -207520615, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -207520615, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_44
+      m_Hash: 155096873
+      m_Sprite: {fileID: -1636742889, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1636742889, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_45
+      m_Hash: 1043965887
+      m_Sprite: {fileID: 1397920219, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1397920219, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_46
+      m_Hash: 657520133
+      m_Sprite: {fileID: 662440019, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 662440019, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_47
+      m_Hash: 272090771
+      m_Sprite: {fileID: 962767489, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 962767489, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 6
+  - m_Name: Drink
+    m_Hash: 209678293
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Stoat_Fawn_48
+      m_Hash: 8968962
+      m_Sprite: {fileID: 497546235, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 497546235, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_49
+      m_Hash: 932178836
+      m_Sprite: {fileID: -471885252, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -471885252, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_50
+      m_Hash: 390619761
+      m_Sprite: {fileID: 389012449, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 389012449, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_51
+      m_Hash: 542069479
+      m_Sprite: {fileID: 462610156, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 462610156, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_52
+      m_Hash: 960889693
+      m_Sprite: {fileID: 1270016635, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1270016635, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_53
+      m_Hash: 239154123
+      m_Sprite: {fileID: 1102267349, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1102267349, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 6
+  - m_Name: Sit_Left
+    m_Hash: 826581757
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Stoat_Fawn_54
+      m_Hash: 270902888
+      m_Sprite: {fileID: 987138484, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 987138484, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_55
+      m_Hash: 656578302
+      m_Sprite: {fileID: 1030110553, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1030110553, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_56
+      m_Hash: 1043056452
+      m_Sprite: {fileID: -1967455613, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1967455613, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_57
+      m_Hash: 153941970
+      m_Sprite: {fileID: -1939441556, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1939441556, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_58
+      m_Hash: 429124163
+      m_Sprite: {fileID: 1124244224, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1124244224, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_59
+      m_Hash: 781507285
+      m_Sprite: {fileID: 2069195341, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 2069195341, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 6
+  - m_Name: Sit_Right
+    m_Hash: 883175834
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Stoat_Fawn_60
+      m_Hash: 1013264818
+      m_Sprite: {fileID: -871013791, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -871013791, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_61
+      m_Hash: 190972196
+      m_Sprite: {fileID: 656753641, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 656753641, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_62
+      m_Hash: 309022878
+      m_Sprite: {fileID: 706120846, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 706120846, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_63
+      m_Hash: 627859464
+      m_Sprite: {fileID: 1016307146, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1016307146, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_64
+      m_Hash: 990442923
+      m_Sprite: {fileID: -725859822, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -725859822, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_65
+      m_Hash: 202360125
+      m_Sprite: {fileID: -1591927001, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1591927001, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 6
+  - m_Name: Sit_Drink
+    m_Hash: 231736415
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Stoat_Fawn_66
+      m_Hash: 352752775
+      m_Sprite: {fileID: -968474236, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -968474236, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_67
+      m_Hash: 570532881
+      m_Sprite: {fileID: 1435611213, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1435611213, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_68
+      m_Hash: 851360128
+      m_Sprite: {fileID: 902725254, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 902725254, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_69
+      m_Hash: 96045334
+      m_Sprite: {fileID: 88263572, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 88263572, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_70
+      m_Hash: 629014771
+      m_Sprite: {fileID: 1119437719, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1119437719, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_71
+      m_Hash: 309932133
+      m_Sprite: {fileID: 1602211356, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1602211356, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 6
+  - m_Name: Sit_Drink_Left
+    m_Hash: 838149174
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Stoat_Fawn_72
+      m_Hash: 191914463
+      m_Sprite: {fileID: -748417887, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -748417887, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_73
+      m_Hash: 1014452553
+      m_Sprite: {fileID: -196988204, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -196988204, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_74
+      m_Hash: 571720938
+      m_Sprite: {fileID: 1785865725, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1785865725, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_75
+      m_Hash: 353694844
+      m_Sprite: {fileID: -1972285273, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1972285273, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_76
+      m_Hash: 203269574
+      m_Sprite: {fileID: -422717421, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -422717421, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_77
+      m_Hash: 991597904
+      m_Sprite: {fileID: -854090198, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -854090198, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 6
+  - m_Name: Sit_Drink_Right
+    m_Hash: 953326372
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Stoat_Fawn_78
+      m_Hash: 732268737
+      m_Sprite: {fileID: 1307480989, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1307480989, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_79
+      m_Hash: 480426071
+      m_Sprite: {fileID: -1414468596, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1414468596, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_80
+      m_Hash: 585505852
+      m_Sprite: {fileID: -1929553349, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1929553349, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_81
+      m_Hash: 367078570
+      m_Sprite: {fileID: 2129438503, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 2129438503, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_82
+      m_Hash: 216562960
+      m_Sprite: {fileID: 1768196734, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1768196734, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_83
+      m_Hash: 1005538694
+      m_Sprite: {fileID: -127688688, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -127688688, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 6
+  - m_Name: Sit_Idle
+    m_Hash: 386396288
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Stoat_Fawn_84
+      m_Hash: 629921829
+      m_Sprite: {fileID: -582713999, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -582713999, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_85
+      m_Hash: 311224499
+      m_Sprite: {fileID: -564269458, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -564269458, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_86
+      m_Hash: 193313033
+      m_Sprite: {fileID: 623279440, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 623279440, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_87
+      m_Hash: 1015187871
+      m_Sprite: {fileID: 896115649, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 896115649, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_88
+      m_Hash: 742233102
+      m_Sprite: {fileID: -2021276059, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -2021276059, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    - m_Name: Stoat_Fawn_89
+      m_Hash: 456828056
+      m_Sprite: {fileID: 2132762134, guid: a55635aaa41fd1e42af9db829923f36f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 2132762134, guid: 006c568552a92f54fb9328aeb75167ce, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 6
+  m_PrimaryLibraryGUID: b79dffac54fdb1e4b828f2917ce0b551
+  m_ModificationHash: 638774957094411414
+  m_Version: 1

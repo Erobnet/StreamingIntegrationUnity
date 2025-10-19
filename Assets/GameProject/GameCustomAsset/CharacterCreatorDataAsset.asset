@@ -1,0 +1,595 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de2ad693d09dfb84db5c627dad53c109, type: 3}
+  m_Name: CharacterCreatorDataAsset
+  m_EditorClassIdentifier: 
+  Categories:
+  - CategoryDisplayName: Type
+    ApplyColorData:
+    - SlotID: 1
+    - SlotID: 2
+    - SlotID: 3
+    - SlotID: 4
+    - SlotID: 8
+    OptionSets:
+    - DisplayName: Stoat
+      SpriteLibraryAssets_Sets:
+      - PartAsset: {fileID: 7108339969198208228, guid: b79dffac54fdb1e4b828f2917ce0b551, type: 3}
+        SlotID: 1
+      - PartAsset: {fileID: 7108339969198208228, guid: bce422d6153c6594ab6cb4c0ca3e25b4, type: 3}
+        SlotID: 2
+      - PartAsset: {fileID: 7108339969198208228, guid: ae421780f7ca1184a8da4d69e5a8dfb8, type: 3}
+        SlotID: 3
+      - PartAsset: {fileID: 7108339969198208228, guid: 388ce8dd1e7b9844d8662b0c30145ab5, type: 3}
+        SlotID: 4
+      - PartAsset: {fileID: 7108339969198208228, guid: 195d47cd2ad722044815ff7644fab58a, type: 3}
+        SlotID: 5
+      ColorOptions:
+      - DisplayColor: {r: 0.6, g: 0.52156866, b: 0.47058827, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 1defd0e3c4726204085533d573b34207, type: 2}
+      - DisplayColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 0bcd4b4cd2bacad498c1bac86fdef824, type: 2}
+      - DisplayColor: {r: 0.5058824, g: 0.8235295, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 3d9b0df5d9b45e94d888118ed4c13831, type: 2}
+      - DisplayColor: {r: 1, g: 0.57254905, b: 0.69411767, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 358ad2dac265c514984c1115bc73666c, type: 2}
+      - DisplayColor: {r: 0.29245278, g: 0.24141148, b: 0.24283758, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 9c56041c8c58a064f9fc0719ef624e4b, type: 2}
+    - DisplayName: Bunny
+      SpriteLibraryAssets_Sets:
+      - PartAsset: {fileID: 7108339969198208228, guid: c5643c4679a7a314aa077de553bf6b7f, type: 3}
+        SlotID: 1
+      - PartAsset: {fileID: 7108339969198208228, guid: 9d624c0a4b154694dbd007875c783c42, type: 3}
+        SlotID: 2
+      - PartAsset: {fileID: 7108339969198208228, guid: 47143aff10b9e8449a462b51fe5e72d7, type: 3}
+        SlotID: 3
+      - PartAsset: {fileID: 7108339969198208228, guid: 2d22a894da763e848887a4e140c8b20b, type: 3}
+        SlotID: 4
+      - PartAsset: {fileID: 7108339969198208228, guid: 80dd1c341ea6c16439fdd4d9ba2c2eb7, type: 3}
+        SlotID: 5
+      ColorOptions:
+      - DisplayColor: {r: 0.6, g: 0.52156866, b: 0.47058827, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 1defd0e3c4726204085533d573b34207, type: 2}
+      - DisplayColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 0bcd4b4cd2bacad498c1bac86fdef824, type: 2}
+      - DisplayColor: {r: 0.5058824, g: 0.8235295, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 3d9b0df5d9b45e94d888118ed4c13831, type: 2}
+      - DisplayColor: {r: 1, g: 0.57254905, b: 0.69411767, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 358ad2dac265c514984c1115bc73666c, type: 2}
+      - DisplayColor: {r: 0.29245278, g: 0.24141148, b: 0.24283758, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 9c56041c8c58a064f9fc0719ef624e4b, type: 2}
+    - DisplayName: Bear
+      SpriteLibraryAssets_Sets:
+      - PartAsset: {fileID: 7108339969198208228, guid: f95392489065e1345bdc310bbe2816fd, type: 3}
+        SlotID: 1
+      - PartAsset: {fileID: 7108339969198208228, guid: 89f5e871ceb27de48878616f5ec86f4b, type: 3}
+        SlotID: 2
+      - PartAsset: {fileID: 7108339969198208228, guid: 7c971ce9020a73c41b7b2098e186be26, type: 3}
+        SlotID: 3
+      - PartAsset: {fileID: 7108339969198208228, guid: 28585a2455ef98d49874246149a00767, type: 3}
+        SlotID: 4
+      - PartAsset: {fileID: 7108339969198208228, guid: d3bb9170e2e3c024b9dc727a35be6241, type: 3}
+        SlotID: 5
+      ColorOptions:
+      - DisplayColor: {r: 0.6, g: 0.52156866, b: 0.47058827, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 1defd0e3c4726204085533d573b34207, type: 2}
+      - DisplayColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 0bcd4b4cd2bacad498c1bac86fdef824, type: 2}
+      - DisplayColor: {r: 0.5058824, g: 0.8235295, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 3d9b0df5d9b45e94d888118ed4c13831, type: 2}
+      - DisplayColor: {r: 1, g: 0.57254905, b: 0.69411767, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 358ad2dac265c514984c1115bc73666c, type: 2}
+      - DisplayColor: {r: 0.29245278, g: 0.24141148, b: 0.24283758, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 9c56041c8c58a064f9fc0719ef624e4b, type: 2}
+  - CategoryDisplayName: Eyes
+    ApplyColorData:
+    - SlotID: 6
+    - SlotID: 8
+    OptionSets:
+    - DisplayName: Bright
+      SpriteLibraryAssets_Sets:
+      - PartAsset: {fileID: 7108339969198208228, guid: c41f610a13a53a94c9f2e7db89513cba, type: 3}
+        SlotID: 6
+      ColorOptions:
+      - DisplayColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 54e59e35b1a6f2a4297f540d51a7c1d7, type: 2}
+      - DisplayColor: {r: 0.5849056, g: 0.48271042, b: 0.43316126, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 68a437fb1b6afbd4d978aa461981f4a1, type: 2}
+      - DisplayColor: {r: 0.504717, g: 0.8231132, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 871147fc8c75d9047acbcfb974689a76, type: 2}
+      - DisplayColor: {r: 0.53844786, g: 0.9433962, b: 0.5954828, a: 1}
+        MaterialOption: {fileID: 2100000, guid: f88e9653d9c85f24194e6744ffe87d1e, type: 2}
+      - DisplayColor: {r: 1, g: 0.8723086, b: 0.4481132, a: 1}
+        MaterialOption: {fileID: 2100000, guid: d4b1cf3d7f19b4d41a9546fe00a55bec, type: 2}
+      - DisplayColor: {r: 0.9716981, g: 0.620752, b: 0.2979263, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 5a6fc024fe9b3b845a3f92cf9782c74a, type: 2}
+      - DisplayColor: {r: 0.8773585, g: 0.45835817, b: 0.376602, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 06ac0fca1fbd7774b90d62177dc964fe, type: 2}
+      - DisplayColor: {r: 1, g: 0.57254905, b: 0.69411767, a: 1}
+        MaterialOption: {fileID: 2100000, guid: c2fbe2aca06a40f45a89004a0f0c7ccf, type: 2}
+      - DisplayColor: {r: 0.8235295, g: 0.72156864, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 891703abf05ab1d4d84e249575a10249, type: 2}
+      - DisplayColor: {r: 0.29245278, g: 0.24141148, b: 0.24283758, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 9ee81b28b06130e4cbc723873f2d4321, type: 2}
+    - DisplayName: Doe
+      SpriteLibraryAssets_Sets:
+      - PartAsset: {fileID: 7108339969198208228, guid: 2dd915d445bb22946bc94a4b5195abf7, type: 3}
+        SlotID: 6
+      ColorOptions:
+      - DisplayColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 54e59e35b1a6f2a4297f540d51a7c1d7, type: 2}
+      - DisplayColor: {r: 0.5849056, g: 0.48271042, b: 0.43316126, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 68a437fb1b6afbd4d978aa461981f4a1, type: 2}
+      - DisplayColor: {r: 0.504717, g: 0.8231132, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 871147fc8c75d9047acbcfb974689a76, type: 2}
+      - DisplayColor: {r: 0.53844786, g: 0.9433962, b: 0.5954828, a: 1}
+        MaterialOption: {fileID: 2100000, guid: f88e9653d9c85f24194e6744ffe87d1e, type: 2}
+      - DisplayColor: {r: 1, g: 0.8723086, b: 0.4481132, a: 1}
+        MaterialOption: {fileID: 2100000, guid: d4b1cf3d7f19b4d41a9546fe00a55bec, type: 2}
+      - DisplayColor: {r: 0.9716981, g: 0.620752, b: 0.2979263, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 5a6fc024fe9b3b845a3f92cf9782c74a, type: 2}
+      - DisplayColor: {r: 0.8773585, g: 0.45835817, b: 0.376602, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 06ac0fca1fbd7774b90d62177dc964fe, type: 2}
+      - DisplayColor: {r: 1, g: 0.57254905, b: 0.69411767, a: 1}
+        MaterialOption: {fileID: 2100000, guid: c2fbe2aca06a40f45a89004a0f0c7ccf, type: 2}
+      - DisplayColor: {r: 0.8235295, g: 0.72156864, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 891703abf05ab1d4d84e249575a10249, type: 2}
+      - DisplayColor: {r: 0.29245278, g: 0.24141148, b: 0.24283758, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 9ee81b28b06130e4cbc723873f2d4321, type: 2}
+    - DisplayName: Sleepless
+      SpriteLibraryAssets_Sets:
+      - PartAsset: {fileID: 7108339969198208228, guid: c2911c258d956fa44b78fa0d228c66f3, type: 3}
+        SlotID: 6
+      ColorOptions:
+      - DisplayColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 54e59e35b1a6f2a4297f540d51a7c1d7, type: 2}
+      - DisplayColor: {r: 0.5849056, g: 0.48271042, b: 0.43316126, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 68a437fb1b6afbd4d978aa461981f4a1, type: 2}
+      - DisplayColor: {r: 0.504717, g: 0.8231132, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 871147fc8c75d9047acbcfb974689a76, type: 2}
+      - DisplayColor: {r: 0.53844786, g: 0.9433962, b: 0.5954828, a: 1}
+        MaterialOption: {fileID: 2100000, guid: f88e9653d9c85f24194e6744ffe87d1e, type: 2}
+      - DisplayColor: {r: 1, g: 0.8723086, b: 0.4481132, a: 1}
+        MaterialOption: {fileID: 2100000, guid: d4b1cf3d7f19b4d41a9546fe00a55bec, type: 2}
+      - DisplayColor: {r: 0.9716981, g: 0.620752, b: 0.2979263, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 5a6fc024fe9b3b845a3f92cf9782c74a, type: 2}
+      - DisplayColor: {r: 0.8773585, g: 0.45835817, b: 0.376602, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 06ac0fca1fbd7774b90d62177dc964fe, type: 2}
+      - DisplayColor: {r: 1, g: 0.57254905, b: 0.69411767, a: 1}
+        MaterialOption: {fileID: 2100000, guid: c2fbe2aca06a40f45a89004a0f0c7ccf, type: 2}
+      - DisplayColor: {r: 0.8235295, g: 0.72156864, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 891703abf05ab1d4d84e249575a10249, type: 2}
+      - DisplayColor: {r: 0.29245278, g: 0.24141148, b: 0.24283758, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 9ee81b28b06130e4cbc723873f2d4321, type: 2}
+    - DisplayName: Dot
+      SpriteLibraryAssets_Sets:
+      - PartAsset: {fileID: 7108339969198208228, guid: 55aff22613e466c418a23770be61e32c, type: 3}
+        SlotID: 6
+      ColorOptions:
+      - DisplayColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 54e59e35b1a6f2a4297f540d51a7c1d7, type: 2}
+      - DisplayColor: {r: 0.5849056, g: 0.48271042, b: 0.43316126, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 68a437fb1b6afbd4d978aa461981f4a1, type: 2}
+      - DisplayColor: {r: 0.504717, g: 0.8231132, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 871147fc8c75d9047acbcfb974689a76, type: 2}
+      - DisplayColor: {r: 0.53844786, g: 0.9433962, b: 0.5954828, a: 1}
+        MaterialOption: {fileID: 2100000, guid: f88e9653d9c85f24194e6744ffe87d1e, type: 2}
+      - DisplayColor: {r: 1, g: 0.8723086, b: 0.4481132, a: 1}
+        MaterialOption: {fileID: 2100000, guid: d4b1cf3d7f19b4d41a9546fe00a55bec, type: 2}
+      - DisplayColor: {r: 0.9716981, g: 0.620752, b: 0.2979263, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 5a6fc024fe9b3b845a3f92cf9782c74a, type: 2}
+      - DisplayColor: {r: 0.8773585, g: 0.45835817, b: 0.376602, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 06ac0fca1fbd7774b90d62177dc964fe, type: 2}
+      - DisplayColor: {r: 1, g: 0.57254905, b: 0.69411767, a: 1}
+        MaterialOption: {fileID: 2100000, guid: c2fbe2aca06a40f45a89004a0f0c7ccf, type: 2}
+      - DisplayColor: {r: 0.8235295, g: 0.72156864, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 891703abf05ab1d4d84e249575a10249, type: 2}
+      - DisplayColor: {r: 0.29245278, g: 0.24141148, b: 0.24283758, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 9ee81b28b06130e4cbc723873f2d4321, type: 2}
+    - DisplayName: Button
+      SpriteLibraryAssets_Sets:
+      - PartAsset: {fileID: 7108339969198208228, guid: 264a542b07b345f4088d220cf64186d8, type: 3}
+        SlotID: 6
+      ColorOptions:
+      - DisplayColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 54e59e35b1a6f2a4297f540d51a7c1d7, type: 2}
+      - DisplayColor: {r: 0.5849056, g: 0.48271042, b: 0.43316126, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 68a437fb1b6afbd4d978aa461981f4a1, type: 2}
+      - DisplayColor: {r: 0.504717, g: 0.8231132, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 871147fc8c75d9047acbcfb974689a76, type: 2}
+      - DisplayColor: {r: 0.53844786, g: 0.9433962, b: 0.5954828, a: 1}
+        MaterialOption: {fileID: 2100000, guid: f88e9653d9c85f24194e6744ffe87d1e, type: 2}
+      - DisplayColor: {r: 1, g: 0.8723086, b: 0.4481132, a: 1}
+        MaterialOption: {fileID: 2100000, guid: d4b1cf3d7f19b4d41a9546fe00a55bec, type: 2}
+      - DisplayColor: {r: 0.9716981, g: 0.620752, b: 0.2979263, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 5a6fc024fe9b3b845a3f92cf9782c74a, type: 2}
+      - DisplayColor: {r: 0.8773585, g: 0.45835817, b: 0.376602, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 06ac0fca1fbd7774b90d62177dc964fe, type: 2}
+      - DisplayColor: {r: 1, g: 0.57254905, b: 0.69411767, a: 1}
+        MaterialOption: {fileID: 2100000, guid: c2fbe2aca06a40f45a89004a0f0c7ccf, type: 2}
+      - DisplayColor: {r: 0.8235295, g: 0.72156864, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 891703abf05ab1d4d84e249575a10249, type: 2}
+      - DisplayColor: {r: 0.29245278, g: 0.24141148, b: 0.24283758, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 9ee81b28b06130e4cbc723873f2d4321, type: 2}
+    - DisplayName: Unnerving
+      SpriteLibraryAssets_Sets:
+      - PartAsset: {fileID: 7108339969198208228, guid: 673b73617a4d265439d1c657da1b20a1, type: 3}
+        SlotID: 6
+      ColorOptions:
+      - DisplayColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 54e59e35b1a6f2a4297f540d51a7c1d7, type: 2}
+      - DisplayColor: {r: 0.5849056, g: 0.48271042, b: 0.43316126, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 68a437fb1b6afbd4d978aa461981f4a1, type: 2}
+      - DisplayColor: {r: 0.504717, g: 0.8231132, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 871147fc8c75d9047acbcfb974689a76, type: 2}
+      - DisplayColor: {r: 0.53844786, g: 0.9433962, b: 0.5954828, a: 1}
+        MaterialOption: {fileID: 2100000, guid: f88e9653d9c85f24194e6744ffe87d1e, type: 2}
+      - DisplayColor: {r: 1, g: 0.8723086, b: 0.4481132, a: 1}
+        MaterialOption: {fileID: 2100000, guid: d4b1cf3d7f19b4d41a9546fe00a55bec, type: 2}
+      - DisplayColor: {r: 0.9716981, g: 0.620752, b: 0.2979263, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 5a6fc024fe9b3b845a3f92cf9782c74a, type: 2}
+      - DisplayColor: {r: 0.8773585, g: 0.45835817, b: 0.376602, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 06ac0fca1fbd7774b90d62177dc964fe, type: 2}
+      - DisplayColor: {r: 1, g: 0.57254905, b: 0.69411767, a: 1}
+        MaterialOption: {fileID: 2100000, guid: c2fbe2aca06a40f45a89004a0f0c7ccf, type: 2}
+      - DisplayColor: {r: 0.8235295, g: 0.72156864, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 891703abf05ab1d4d84e249575a10249, type: 2}
+      - DisplayColor: {r: 0.29245278, g: 0.24141148, b: 0.24283758, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 9ee81b28b06130e4cbc723873f2d4321, type: 2}
+    - DisplayName: Demure
+      SpriteLibraryAssets_Sets:
+      - PartAsset: {fileID: 7108339969198208228, guid: 080e9edf223ab864d9bd48290d4ca7d5, type: 3}
+        SlotID: 6
+      ColorOptions:
+      - DisplayColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 54e59e35b1a6f2a4297f540d51a7c1d7, type: 2}
+      - DisplayColor: {r: 0.5849056, g: 0.48271042, b: 0.43316126, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 68a437fb1b6afbd4d978aa461981f4a1, type: 2}
+      - DisplayColor: {r: 0.504717, g: 0.8231132, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 871147fc8c75d9047acbcfb974689a76, type: 2}
+      - DisplayColor: {r: 0.53844786, g: 0.9433962, b: 0.5954828, a: 1}
+        MaterialOption: {fileID: 2100000, guid: f88e9653d9c85f24194e6744ffe87d1e, type: 2}
+      - DisplayColor: {r: 1, g: 0.8723086, b: 0.4481132, a: 1}
+        MaterialOption: {fileID: 2100000, guid: d4b1cf3d7f19b4d41a9546fe00a55bec, type: 2}
+      - DisplayColor: {r: 0.9716981, g: 0.620752, b: 0.2979263, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 5a6fc024fe9b3b845a3f92cf9782c74a, type: 2}
+      - DisplayColor: {r: 0.8773585, g: 0.45835817, b: 0.376602, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 06ac0fca1fbd7774b90d62177dc964fe, type: 2}
+      - DisplayColor: {r: 1, g: 0.57254905, b: 0.69411767, a: 1}
+        MaterialOption: {fileID: 2100000, guid: c2fbe2aca06a40f45a89004a0f0c7ccf, type: 2}
+      - DisplayColor: {r: 0.8235295, g: 0.72156864, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 891703abf05ab1d4d84e249575a10249, type: 2}
+      - DisplayColor: {r: 0.29245278, g: 0.24141148, b: 0.24283758, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 9ee81b28b06130e4cbc723873f2d4321, type: 2}
+    - DisplayName: Cheeky
+      SpriteLibraryAssets_Sets:
+      - PartAsset: {fileID: 7108339969198208228, guid: 2aba11ec02e25ed49890a4aa9e2f86e8, type: 3}
+        SlotID: 6
+      ColorOptions:
+      - DisplayColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 54e59e35b1a6f2a4297f540d51a7c1d7, type: 2}
+      - DisplayColor: {r: 0.5849056, g: 0.48271042, b: 0.43316126, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 68a437fb1b6afbd4d978aa461981f4a1, type: 2}
+      - DisplayColor: {r: 0.504717, g: 0.8231132, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 871147fc8c75d9047acbcfb974689a76, type: 2}
+      - DisplayColor: {r: 0.53844786, g: 0.9433962, b: 0.5954828, a: 1}
+        MaterialOption: {fileID: 2100000, guid: f88e9653d9c85f24194e6744ffe87d1e, type: 2}
+      - DisplayColor: {r: 1, g: 0.8723086, b: 0.4481132, a: 1}
+        MaterialOption: {fileID: 2100000, guid: d4b1cf3d7f19b4d41a9546fe00a55bec, type: 2}
+      - DisplayColor: {r: 0.9716981, g: 0.620752, b: 0.2979263, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 5a6fc024fe9b3b845a3f92cf9782c74a, type: 2}
+      - DisplayColor: {r: 0.8773585, g: 0.45835817, b: 0.376602, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 06ac0fca1fbd7774b90d62177dc964fe, type: 2}
+      - DisplayColor: {r: 1, g: 0.57254905, b: 0.69411767, a: 1}
+        MaterialOption: {fileID: 2100000, guid: c2fbe2aca06a40f45a89004a0f0c7ccf, type: 2}
+      - DisplayColor: {r: 0.8235295, g: 0.72156864, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 891703abf05ab1d4d84e249575a10249, type: 2}
+      - DisplayColor: {r: 0.29245278, g: 0.24141148, b: 0.24283758, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 9ee81b28b06130e4cbc723873f2d4321, type: 2}
+    - DisplayName: Caffienated
+      SpriteLibraryAssets_Sets:
+      - PartAsset: {fileID: 7108339969198208228, guid: 51a566001fc8dac4696eaedc05e103cb, type: 3}
+        SlotID: 6
+      ColorOptions:
+      - DisplayColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 54e59e35b1a6f2a4297f540d51a7c1d7, type: 2}
+      - DisplayColor: {r: 0.5849056, g: 0.48271042, b: 0.43316126, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 68a437fb1b6afbd4d978aa461981f4a1, type: 2}
+      - DisplayColor: {r: 0.504717, g: 0.8231132, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 871147fc8c75d9047acbcfb974689a76, type: 2}
+      - DisplayColor: {r: 0.53844786, g: 0.9433962, b: 0.5954828, a: 1}
+        MaterialOption: {fileID: 2100000, guid: f88e9653d9c85f24194e6744ffe87d1e, type: 2}
+      - DisplayColor: {r: 1, g: 0.8723086, b: 0.4481132, a: 1}
+        MaterialOption: {fileID: 2100000, guid: d4b1cf3d7f19b4d41a9546fe00a55bec, type: 2}
+      - DisplayColor: {r: 0.9716981, g: 0.620752, b: 0.2979263, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 5a6fc024fe9b3b845a3f92cf9782c74a, type: 2}
+      - DisplayColor: {r: 0.8773585, g: 0.45835817, b: 0.376602, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 06ac0fca1fbd7774b90d62177dc964fe, type: 2}
+      - DisplayColor: {r: 1, g: 0.57254905, b: 0.69411767, a: 1}
+        MaterialOption: {fileID: 2100000, guid: c2fbe2aca06a40f45a89004a0f0c7ccf, type: 2}
+      - DisplayColor: {r: 0.8235295, g: 0.72156864, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 891703abf05ab1d4d84e249575a10249, type: 2}
+      - DisplayColor: {r: 0.29245278, g: 0.24141148, b: 0.24283758, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 9ee81b28b06130e4cbc723873f2d4321, type: 2}
+    - DisplayName: Moody
+      SpriteLibraryAssets_Sets:
+      - PartAsset: {fileID: 7108339969198208228, guid: 0a657bea721db8a44ae05650622961dc, type: 3}
+        SlotID: 6
+      ColorOptions:
+      - DisplayColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 54e59e35b1a6f2a4297f540d51a7c1d7, type: 2}
+      - DisplayColor: {r: 0.5849056, g: 0.48271042, b: 0.43316126, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 68a437fb1b6afbd4d978aa461981f4a1, type: 2}
+      - DisplayColor: {r: 0.504717, g: 0.8231132, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 871147fc8c75d9047acbcfb974689a76, type: 2}
+      - DisplayColor: {r: 0.53844786, g: 0.9433962, b: 0.5954828, a: 1}
+        MaterialOption: {fileID: 2100000, guid: f88e9653d9c85f24194e6744ffe87d1e, type: 2}
+      - DisplayColor: {r: 1, g: 0.8723086, b: 0.4481132, a: 1}
+        MaterialOption: {fileID: 2100000, guid: d4b1cf3d7f19b4d41a9546fe00a55bec, type: 2}
+      - DisplayColor: {r: 0.9716981, g: 0.620752, b: 0.2979263, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 5a6fc024fe9b3b845a3f92cf9782c74a, type: 2}
+      - DisplayColor: {r: 0.8773585, g: 0.45835817, b: 0.376602, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 06ac0fca1fbd7774b90d62177dc964fe, type: 2}
+      - DisplayColor: {r: 1, g: 0.57254905, b: 0.69411767, a: 1}
+        MaterialOption: {fileID: 2100000, guid: c2fbe2aca06a40f45a89004a0f0c7ccf, type: 2}
+      - DisplayColor: {r: 0.8235295, g: 0.72156864, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 891703abf05ab1d4d84e249575a10249, type: 2}
+      - DisplayColor: {r: 0.29245278, g: 0.24141148, b: 0.24283758, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 9ee81b28b06130e4cbc723873f2d4321, type: 2}
+    - DisplayName: Suspicion
+      SpriteLibraryAssets_Sets:
+      - PartAsset: {fileID: 7108339969198208228, guid: ad13402508b87a24c892d892ab528da4, type: 3}
+        SlotID: 6
+      ColorOptions:
+      - DisplayColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 54e59e35b1a6f2a4297f540d51a7c1d7, type: 2}
+      - DisplayColor: {r: 0.5849056, g: 0.48271042, b: 0.43316126, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 68a437fb1b6afbd4d978aa461981f4a1, type: 2}
+      - DisplayColor: {r: 0.504717, g: 0.8231132, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 871147fc8c75d9047acbcfb974689a76, type: 2}
+      - DisplayColor: {r: 0.53844786, g: 0.9433962, b: 0.5954828, a: 1}
+        MaterialOption: {fileID: 2100000, guid: f88e9653d9c85f24194e6744ffe87d1e, type: 2}
+      - DisplayColor: {r: 1, g: 0.8723086, b: 0.4481132, a: 1}
+        MaterialOption: {fileID: 2100000, guid: d4b1cf3d7f19b4d41a9546fe00a55bec, type: 2}
+      - DisplayColor: {r: 0.9716981, g: 0.620752, b: 0.2979263, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 5a6fc024fe9b3b845a3f92cf9782c74a, type: 2}
+      - DisplayColor: {r: 0.8773585, g: 0.45835817, b: 0.376602, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 06ac0fca1fbd7774b90d62177dc964fe, type: 2}
+      - DisplayColor: {r: 1, g: 0.57254905, b: 0.69411767, a: 1}
+        MaterialOption: {fileID: 2100000, guid: c2fbe2aca06a40f45a89004a0f0c7ccf, type: 2}
+      - DisplayColor: {r: 0.8235295, g: 0.72156864, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 891703abf05ab1d4d84e249575a10249, type: 2}
+      - DisplayColor: {r: 0.29245278, g: 0.24141148, b: 0.24283758, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 9ee81b28b06130e4cbc723873f2d4321, type: 2}
+  - CategoryDisplayName: Nose
+    ApplyColorData: []
+    OptionSets:
+    - DisplayName: Sniffle
+      SpriteLibraryAssets_Sets:
+      - PartAsset: {fileID: 7108339969198208228, guid: fad0541e28c84c94d96d329555d5042f, type: 3}
+        SlotID: 7
+      - PartAsset: {fileID: 7108339969198208228, guid: 3769c09d809ab3440b0bda60a07ae702, type: 3}
+        SlotID: 8
+      ColorOptions:
+      - DisplayColor: {r: 0.83921576, g: 0.5254902, b: 0.4392157, a: 1}
+        MaterialOption: {fileID: 2100000, guid: aa5eded9aac87264497acca467d1216b, type: 2}
+      - DisplayColor: {r: 0.8862745, g: 0.49803922, b: 0.69428635, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 855df3a6c86a4364ebd752b0509ec099, type: 2}
+      - DisplayColor: {r: 0.8113208, g: 0.3306586, b: 0.23344605, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 57bcfdca52b3ab04092039ed217e5181, type: 2}
+      - DisplayColor: {r: 0.5471698, g: 0.2607574, b: 0.19357423, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 718899b75d660e349a4a9d41ee16d62d, type: 2}
+      - DisplayColor: {r: 0.29411766, g: 0.24313726, b: 0.24313726, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 718899b75d660e349a4a9d41ee16d62d, type: 2}
+    - DisplayName: Snuffle
+      SpriteLibraryAssets_Sets:
+      - PartAsset: {fileID: 7108339969198208228, guid: d2b70b43115baee4691b759c783afe43, type: 3}
+        SlotID: 7
+      - PartAsset: {fileID: 7108339969198208228, guid: 3769c09d809ab3440b0bda60a07ae702, type: 3}
+        SlotID: 8
+      ColorOptions:
+      - DisplayColor: {r: 0.83921576, g: 0.5254902, b: 0.4392157, a: 1}
+        MaterialOption: {fileID: 2100000, guid: aa5eded9aac87264497acca467d1216b, type: 2}
+      - DisplayColor: {r: 0.8862745, g: 0.49803922, b: 0.69428635, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 855df3a6c86a4364ebd752b0509ec099, type: 2}
+      - DisplayColor: {r: 0.8113208, g: 0.3306586, b: 0.23344605, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 57bcfdca52b3ab04092039ed217e5181, type: 2}
+      - DisplayColor: {r: 0.5471698, g: 0.2607574, b: 0.19357423, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 718899b75d660e349a4a9d41ee16d62d, type: 2}
+      - DisplayColor: {r: 0.29245278, g: 0.24141148, b: 0.24283758, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 0fbece2214c20ef42b1e2dfae5a86807, type: 2}
+  - CategoryDisplayName: Cheeks
+    ApplyColorData: []
+    OptionSets:
+    - DisplayName: Dewy
+      SpriteLibraryAssets_Sets:
+      - PartAsset: {fileID: 7108339969198208228, guid: faaffca838f8c4440b34bea0cf9a0038, type: 3}
+        SlotID: 9
+      ColorOptions: []
+    - DisplayName: Flushed
+      SpriteLibraryAssets_Sets:
+      - PartAsset: {fileID: 7108339969198208228, guid: d460a88faa2f62f4a91d31c77444c471, type: 3}
+        SlotID: 9
+      ColorOptions: []
+    - DisplayName: Pika
+      SpriteLibraryAssets_Sets:
+      - PartAsset: {fileID: 7108339969198208228, guid: e90875d93b751ee41b3c3fb6c21b9377, type: 3}
+        SlotID: 9
+      ColorOptions: []
+  - CategoryDisplayName: Tops
+    ApplyColorData:
+    - SlotID: 11
+    - SlotID: 12
+    - SlotID: 13
+    OptionSets:
+    - DisplayName: Dress
+      SpriteLibraryAssets_Sets:
+      - PartAsset: {fileID: 7108339969198208228, guid: b3cf4cee54cd7f64ea5bb028e1dee431, type: 3}
+        SlotID: 10
+      - PartAsset: {fileID: 7108339969198208228, guid: bfbe70148ff5d60478832773d4f3237e, type: 3}
+        SlotID: 12
+      - PartAsset: {fileID: 7108339969198208228, guid: b457111beabc901448fe7e071da063b7, type: 3}
+        SlotID: 13
+      ColorOptions:
+      - DisplayColor: {r: 0.53844786, g: 0.9433962, b: 0.5954828, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 4a06b15d950a70a469c7de6b7f3eb608, type: 2}
+      - DisplayColor: {r: 0.504717, g: 0.8231132, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: dabca7a58754d814ba504c314733c606, type: 2}
+      - DisplayColor: {r: 0.8235295, g: 0.72156864, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 62cbc70327b785844aeaf150f94849a6, type: 2}
+      - DisplayColor: {r: 1, g: 0.57254905, b: 0.69411767, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 596c96503684035438236a6ab6068fc1, type: 2}
+      - DisplayColor: {r: 0.8773585, g: 0.45835817, b: 0.376602, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 91e3c270566ec3a47963cb227652da99, type: 2}
+      - DisplayColor: {r: 0.9716981, g: 0.620752, b: 0.2979263, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 47dee17379e850a45a19a54282879759, type: 2}
+      - DisplayColor: {r: 1, g: 0.8723086, b: 0.4481132, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 72e6d64693c92a24b9d905388945968c, type: 2}
+      - DisplayColor: {r: 0.5849056, g: 0.48271042, b: 0.43316126, a: 1}
+        MaterialOption: {fileID: 2100000, guid: bbb78d12f2a510f43979348b77f8cf2b, type: 2}
+      - DisplayColor: {r: 0.29245278, g: 0.24141148, b: 0.24283758, a: 1}
+        MaterialOption: {fileID: 2100000, guid: c97c25a66e4f1f448b5332748adea659, type: 2}
+    - DisplayName: TShirt
+      SpriteLibraryAssets_Sets:
+      - PartAsset: {fileID: 7108339969198208228, guid: 1c7dc64508ab74a46aadd5071650274f, type: 3}
+        SlotID: 11
+      - PartAsset: {fileID: 0}
+        SlotID: 12
+      - PartAsset: {fileID: 7108339969198208228, guid: b457111beabc901448fe7e071da063b7, type: 3}
+        SlotID: 13
+      ColorOptions:
+      - DisplayColor: {r: 0.53844786, g: 0.9433962, b: 0.5954828, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 4a06b15d950a70a469c7de6b7f3eb608, type: 2}
+      - DisplayColor: {r: 0.504717, g: 0.8231132, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: dabca7a58754d814ba504c314733c606, type: 2}
+      - DisplayColor: {r: 0.8235295, g: 0.72156864, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 62cbc70327b785844aeaf150f94849a6, type: 2}
+      - DisplayColor: {r: 1, g: 0.57254905, b: 0.69411767, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 596c96503684035438236a6ab6068fc1, type: 2}
+      - DisplayColor: {r: 0.8773585, g: 0.45835817, b: 0.376602, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 91e3c270566ec3a47963cb227652da99, type: 2}
+      - DisplayColor: {r: 0.9716981, g: 0.620752, b: 0.2979263, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 47dee17379e850a45a19a54282879759, type: 2}
+      - DisplayColor: {r: 1, g: 0.8723086, b: 0.4481132, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 72e6d64693c92a24b9d905388945968c, type: 2}
+      - DisplayColor: {r: 0.5849056, g: 0.48271042, b: 0.43316126, a: 1}
+        MaterialOption: {fileID: 2100000, guid: bbb78d12f2a510f43979348b77f8cf2b, type: 2}
+      - DisplayColor: {r: 0.29245278, g: 0.24141148, b: 0.24283758, a: 1}
+        MaterialOption: {fileID: 2100000, guid: c97c25a66e4f1f448b5332748adea659, type: 2}
+    - DisplayName: Striped Shirt
+      SpriteLibraryAssets_Sets:
+      - PartAsset: {fileID: 7108339969198208228, guid: 1c7dc64508ab74a46aadd5071650274f, type: 3}
+        SlotID: 11
+      - PartAsset: {fileID: 7108339969198208228, guid: ed882ecb42ecf9c4482a179c7982b79f, type: 3}
+        SlotID: 12
+      - PartAsset: {fileID: 7108339969198208228, guid: b457111beabc901448fe7e071da063b7, type: 3}
+        SlotID: 13
+      ColorOptions:
+      - DisplayColor: {r: 0.53844786, g: 0.9433962, b: 0.5954828, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 4a06b15d950a70a469c7de6b7f3eb608, type: 2}
+      - DisplayColor: {r: 0.504717, g: 0.8231132, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: dabca7a58754d814ba504c314733c606, type: 2}
+      - DisplayColor: {r: 0.8235295, g: 0.72156864, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 62cbc70327b785844aeaf150f94849a6, type: 2}
+      - DisplayColor: {r: 1, g: 0.57254905, b: 0.69411767, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 596c96503684035438236a6ab6068fc1, type: 2}
+      - DisplayColor: {r: 0.8773585, g: 0.45835817, b: 0.376602, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 91e3c270566ec3a47963cb227652da99, type: 2}
+      - DisplayColor: {r: 0.9716981, g: 0.620752, b: 0.2979263, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 47dee17379e850a45a19a54282879759, type: 2}
+      - DisplayColor: {r: 1, g: 0.8723086, b: 0.4481132, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 72e6d64693c92a24b9d905388945968c, type: 2}
+      - DisplayColor: {r: 0.5849056, g: 0.48271042, b: 0.43316126, a: 1}
+        MaterialOption: {fileID: 2100000, guid: bbb78d12f2a510f43979348b77f8cf2b, type: 2}
+      - DisplayColor: {r: 0.29245278, g: 0.24141148, b: 0.24283758, a: 1}
+        MaterialOption: {fileID: 2100000, guid: c97c25a66e4f1f448b5332748adea659, type: 2}
+    - DisplayName: Sweater
+      SpriteLibraryAssets_Sets:
+      - PartAsset: {fileID: 7108339969198208228, guid: 54e75ed46c0a95e4f85b701c83b16c10, type: 3}
+        SlotID: 11
+      - PartAsset: {fileID: 0}
+        SlotID: 12
+      - PartAsset: {fileID: 7108339969198208228, guid: 365178357e6f5ec478107ee640789eb5, type: 3}
+        SlotID: 13
+      ColorOptions:
+      - DisplayColor: {r: 0.53844786, g: 0.9433962, b: 0.5954828, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 4a06b15d950a70a469c7de6b7f3eb608, type: 2}
+      - DisplayColor: {r: 0.504717, g: 0.8231132, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: dabca7a58754d814ba504c314733c606, type: 2}
+      - DisplayColor: {r: 0.8235295, g: 0.72156864, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 62cbc70327b785844aeaf150f94849a6, type: 2}
+      - DisplayColor: {r: 1, g: 0.57254905, b: 0.69411767, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 596c96503684035438236a6ab6068fc1, type: 2}
+      - DisplayColor: {r: 0.8773585, g: 0.45835817, b: 0.376602, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 91e3c270566ec3a47963cb227652da99, type: 2}
+      - DisplayColor: {r: 0.9716981, g: 0.620752, b: 0.2979263, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 47dee17379e850a45a19a54282879759, type: 2}
+      - DisplayColor: {r: 1, g: 0.8723086, b: 0.4481132, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 72e6d64693c92a24b9d905388945968c, type: 2}
+      - DisplayColor: {r: 0.5849056, g: 0.48271042, b: 0.43316126, a: 1}
+        MaterialOption: {fileID: 2100000, guid: bbb78d12f2a510f43979348b77f8cf2b, type: 2}
+      - DisplayColor: {r: 0.29245278, g: 0.24141148, b: 0.24283758, a: 1}
+        MaterialOption: {fileID: 2100000, guid: c97c25a66e4f1f448b5332748adea659, type: 2}
+    - DisplayName: Heart Sweater
+      SpriteLibraryAssets_Sets:
+      - PartAsset: {fileID: 7108339969198208228, guid: 54e75ed46c0a95e4f85b701c83b16c10, type: 3}
+        SlotID: 11
+      - PartAsset: {fileID: 7108339969198208228, guid: 9197b85e3cc256f4489055263938d7b3, type: 3}
+        SlotID: 12
+      - PartAsset: {fileID: 7108339969198208228, guid: 365178357e6f5ec478107ee640789eb5, type: 3}
+        SlotID: 13
+      ColorOptions:
+      - DisplayColor: {r: 0.53844786, g: 0.9433962, b: 0.5954828, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 4a06b15d950a70a469c7de6b7f3eb608, type: 2}
+      - DisplayColor: {r: 0.504717, g: 0.8231132, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: dabca7a58754d814ba504c314733c606, type: 2}
+      - DisplayColor: {r: 0.8235295, g: 0.72156864, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 62cbc70327b785844aeaf150f94849a6, type: 2}
+      - DisplayColor: {r: 1, g: 0.57254905, b: 0.69411767, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 596c96503684035438236a6ab6068fc1, type: 2}
+      - DisplayColor: {r: 0.8773585, g: 0.45835817, b: 0.376602, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 91e3c270566ec3a47963cb227652da99, type: 2}
+      - DisplayColor: {r: 0.9716981, g: 0.620752, b: 0.2979263, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 47dee17379e850a45a19a54282879759, type: 2}
+      - DisplayColor: {r: 1, g: 0.8723086, b: 0.4481132, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 72e6d64693c92a24b9d905388945968c, type: 2}
+      - DisplayColor: {r: 0.5849056, g: 0.48271042, b: 0.43316126, a: 1}
+        MaterialOption: {fileID: 2100000, guid: bbb78d12f2a510f43979348b77f8cf2b, type: 2}
+      - DisplayColor: {r: 0.29245278, g: 0.24141148, b: 0.24283758, a: 1}
+        MaterialOption: {fileID: 2100000, guid: c97c25a66e4f1f448b5332748adea659, type: 2}
+    - DisplayName: Scary Sweater
+      SpriteLibraryAssets_Sets:
+      - PartAsset: {fileID: 7108339969198208228, guid: 54e75ed46c0a95e4f85b701c83b16c10, type: 3}
+        SlotID: 11
+      - PartAsset: {fileID: 7108339969198208228, guid: aada353bb8b010840bf9492d9df92ab1, type: 3}
+        SlotID: 12
+      - PartAsset: {fileID: 7108339969198208228, guid: 365178357e6f5ec478107ee640789eb5, type: 3}
+        SlotID: 13
+      ColorOptions:
+      - DisplayColor: {r: 0.53844786, g: 0.9433962, b: 0.5954828, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 4a06b15d950a70a469c7de6b7f3eb608, type: 2}
+      - DisplayColor: {r: 0.504717, g: 0.8231132, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: dabca7a58754d814ba504c314733c606, type: 2}
+      - DisplayColor: {r: 0.8235295, g: 0.72156864, b: 1, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 62cbc70327b785844aeaf150f94849a6, type: 2}
+      - DisplayColor: {r: 1, g: 0.57254905, b: 0.69411767, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 596c96503684035438236a6ab6068fc1, type: 2}
+      - DisplayColor: {r: 0.8773585, g: 0.45835817, b: 0.376602, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 91e3c270566ec3a47963cb227652da99, type: 2}
+      - DisplayColor: {r: 0.9716981, g: 0.620752, b: 0.2979263, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 47dee17379e850a45a19a54282879759, type: 2}
+      - DisplayColor: {r: 1, g: 0.8723086, b: 0.4481132, a: 1}
+        MaterialOption: {fileID: 2100000, guid: 72e6d64693c92a24b9d905388945968c, type: 2}
+      - DisplayColor: {r: 0.5849056, g: 0.48271042, b: 0.43316126, a: 1}
+        MaterialOption: {fileID: 2100000, guid: bbb78d12f2a510f43979348b77f8cf2b, type: 2}
+      - DisplayColor: {r: 0.29245278, g: 0.24141148, b: 0.24283758, a: 1}
+        MaterialOption: {fileID: 2100000, guid: c97c25a66e4f1f448b5332748adea659, type: 2}

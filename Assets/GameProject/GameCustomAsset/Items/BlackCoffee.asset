@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55b46d89225b4cc9a5eb93ebe4791d99, type: 3}
+  m_Name: BlackCoffee
+  m_EditorClassIdentifier: 
+  _guid:
+    HashValue:
+      x: 1065175213
+      y: 1402253388
+      z: 1214919017
+      w: 4108256495
+  DisplayName:
+    m_TableReference:
+      m_TableCollectionName: GUID:21e3f19d8ebeb79439400582a1f13282
+    m_TableEntryReference:
+      m_KeyId: 442380660736
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  Description:
+    m_TableReference:
+      m_TableCollectionName: GUID:21e3f19d8ebeb79439400582a1f13282
+    m_TableEntryReference:
+      m_KeyId: 442380660736
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  Icon: {fileID: 1013200531, guid: 5d91a1c823766664595a174e541ffa5d, type: 3}
+  PurchaseCost:
+    Value: 10
+  CharacterTransitionData: {fileID: 11400000, guid: 8ad6d46c5a86f11478f1e16b2e72e2db, type: 2}
+  ColorOptions: {fileID: 0}
+  references:
+    version: 2
+    RefIds: []

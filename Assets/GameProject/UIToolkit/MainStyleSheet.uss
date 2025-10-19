@@ -1,0 +1,139 @@
+.ButtonIcon_Backpack {
+    flex-grow: 1;
+    background-size: 64px 64px;
+    -unity-background-scale-mode: scale-and-crop;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    cursor: url("project://database/Assets/GameProject/Art/Placeholder/UI/Catpaw%20Mouse%20icon.png?fileID=2800000&guid=97e400f8d5cf3d641b4c5c7b1fcfca40&type=3#Catpaw Mouse icon");
+    background-image: url("project://database/Assets/GameProject/Art/Placeholder/UI/Small%20Square%20Buttons.png?fileID=14479960&guid=04d66636fce2d5f4c9fd1bdd9de1f3bd&type=3#Small Square Buttons_4");
+}
+
+.Title {
+    flex-grow: 1;
+    background-image: url("project://database/Assets/GameProject/Art/Placeholder/UI/ribbon.png?fileID=1862886232&guid=da20081e6311cd94c9bc8ce16f97a9c9&type=3#ribbon_176");
+    -unity-slice-left: 12;
+    -unity-slice-right: 12;
+    -unity-slice-bottom: 8;
+    -unity-slice-top: 8;
+    -unity-slice-scale: 1.4px;
+}
+
+.Field_Portrait {
+    width: 100%;
+    height: 14%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    flex-direction: row;
+    align-self: center;
+    -unity-text-align: middle-left;
+    align-items: stretch;
+    top: 0;
+    left: -12%;
+}
+
+.FieldOptionChangeButton {
+    background-color: rgba(188, 188, 188, 0);
+    width: 32px;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    -unity-background-scale-mode: scale-to-fit;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    height: 100%;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.unity-text-element {
+}
+
+.unity-label {
+}
+
+.DockButton {
+    flex-grow: 1;
+    -unity-background-scale-mode: scale-and-crop;
+    align-self: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    width: 64px;
+    height: 64px;
+    -unity-slice-top: 6;
+    -unity-slice-bottom: 6;
+    -unity-slice-left: 6;
+    -unity-slice-right: 5;
+    -unity-slice-scale: 0.2px;
+    cursor: url("project://database/Assets/GameProject/Art/Placeholder/UI/Catpaw%20Mouse%20icon.png?fileID=2800000&guid=97e400f8d5cf3d641b4c5c7b1fcfca40&type=3#Catpaw Mouse icon");
+    background-size: 64px 64px;
+}
+
+.pompyMiniOptionLabel {
+    margin-bottom: 7px;
+    -unity-font-definition: url("project://database/Assets/GameProject/Art/Fonts/pompy-mini.ttf?fileID=12800000&guid=6f687e5ad42a2b7429743a7fdd7703a3&type=3#pompy-mini");
+}
+
+.FieldOptionChangeButton {
+    background-color: rgba(188, 188, 188, 0);
+    width: 32px;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    -unity-background-scale-mode: scale-to-fit;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    height: 100%;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.pompyMiniOptionLabel {
+    margin-bottom: 10px;
+    -unity-text-align: middle-left;
+}
+
+.CharacterCreatorCustomizationContainer {
+    width: 45%;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    background-size: 100% 100%;
+    height: auto;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.FieldOptionRoot {
+    align-self: flex-start;
+    width: 100%;
+}

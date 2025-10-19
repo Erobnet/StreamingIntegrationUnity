@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1cf9e9be0e84cf19c4e0dd5341b97d3, type: 3}
+  m_Name: Cafe Table_Indexer
+  m_EditorClassIdentifier: 
+  _guid:
+    HashValue:
+      x: 207434701
+      y: 997496129
+      z: 1247138826
+      w: 3215825993
+  placeableObjectOptions:
+  - {fileID: 8934743932239550945, guid: 152d25a3d60d909408a2ba0f024f91a8, type: 3}
+  displayIcon: {fileID: 175228279, guid: 9fb853af681e87a43b5f65e6fa4ef3a1, type: 3}
+  availableStock: -1
+  purchasePrice:
+    Value: 1
+  canBeDeleted: 1

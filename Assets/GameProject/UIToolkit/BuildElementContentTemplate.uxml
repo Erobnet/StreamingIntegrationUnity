@@ -1,0 +1,7 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement name="BuildElementRoot" focusable="false" enabled="true" style="width: 100px; height: 100px;">
+        <engine:VisualElement name="ImageContent" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/GameProject/Art/Sprites/Props/furniture_atlas.png?fileID=1232849257&amp;guid=9fb853af681e87a43b5f65e6fa4ef3a1&amp;type=3#furniture_atlas_1&quot;); -unity-background-scale-mode: scale-to-fit; max-width: 100%; max-height: 100%;">
+            <engine:Label text="1" name="StockCount" style="top: 0; right: 0; -unity-text-align: middle-right; font-size: 14px;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

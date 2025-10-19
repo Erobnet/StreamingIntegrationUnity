@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cb897424ce046aeb600ea396f6da1d5, type: 3}
+  m_Name: CoffeeCharacterTransition
+  m_EditorClassIdentifier: 
+  ProjectCharacterCreatorData: {fileID: 11400000, guid: e1eea1f2bf3073f4ca5b9039db508eed, type: 2}
+  DisplayName: Coffee
+  SpriteLibraryAssetSets:
+  - CategoryOverride: 0
+    TargetSlotID: 16
+    PartAssets:
+    - {fileID: 7108339969198208228, guid: bbfa7a1274c555d45bec08b9870a5c29, type: 3}
+  - CategoryOverride: 1
+    TargetSlotID: 2
+    PartAssets:
+    - {fileID: 7108339969198208228, guid: 71a5e767a13995545b6f5cc6cffc767b, type: 3}
+    - {fileID: 7108339969198208228, guid: f8f0539f59acb3346aa53240e1bdfa33, type: 3}
+    - {fileID: 7108339969198208228, guid: 63814377f20ac864e85a061288272e5c, type: 3}
+  - CategoryOverride: 5
+    TargetSlotID: 13
+    PartAssets:
+    - {fileID: 7108339969198208228, guid: ae498354ec25e9d4d929d19e338747b0, type: 3}
+    - {fileID: 7108339969198208228, guid: ae498354ec25e9d4d929d19e338747b0, type: 3}
+    - {fileID: 7108339969198208228, guid: ae498354ec25e9d4d929d19e338747b0, type: 3}
+    - {fileID: 7108339969198208228, guid: 5ccaacb564c602a489c93799d318c4f5, type: 3}
+    - {fileID: 7108339969198208228, guid: 5ccaacb564c602a489c93799d318c4f5, type: 3}
+    - {fileID: 7108339969198208228, guid: 5ccaacb564c602a489c93799d318c4f5, type: 3}
+  CharacterTransitionDefinition: {fileID: 11400000, guid: f66441a6ed5af3a4cac97af39ffb8ceb, type: 2}

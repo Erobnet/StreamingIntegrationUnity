@@ -3,7 +3,7 @@ It is intended as a game/tool for a streamer to host and customize a persisted v
 It is meant to be docked idly at the bottom of the host's stream window alongside another game or fullscreen application.
 
 ## Getting started
-This project requires to be cloned using a git client to work properly, unity 6 (tested with 6.0.47f1) leveraging entities, burst, jobs and many other specific entities features and can be run without and with the chat interaction.  
+This project requires to be cloned using a git client to work properly, unity 6 (tested with 6.2.6 and 6.0.47+) leveraging entities, burst, jobs and many other specific entities features and can be run without and with the chat interaction.  
 for the chat interactions: This requires 2 twitch accounts, 1 for the streamer, another account for the bot (we recommend strongly to promote the bot as a [moderator](https://streamlabs.com/content-hub/post/how-to-make-someone-a-mod-on-twitch) )
 
 ## Usage
